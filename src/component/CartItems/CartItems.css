@@ -28,11 +28,11 @@
     font-size: 18px;
     font-weight: 600;
 }
-/*.cartitems-format{
+.cartitems-format{
     font-size: 17px;
     font-weight: 500;
 }
-*/
+
 .carticon-product-icon{
     height: 62px;
 }
@@ -52,6 +52,7 @@
     display: flex;
     margin:100px 100px;
     width: 1200px;
+    gap:100px;
 }
 .cartitmes-total{
     flex: 1;
