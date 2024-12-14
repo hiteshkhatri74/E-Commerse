@@ -13,7 +13,7 @@ import kid_banner from './component/Assets/banner_kids.png';
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/E-Commerse">
       <Navbar/>
       <Routes>
         <Route path='/' element={<Shoppi/>}/>
